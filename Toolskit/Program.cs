@@ -11,7 +11,7 @@ namespace Toolskit
     {
         static void Main(string[] args)
         {
-            var obj = new { name = "lvniao", age = 12 };
+            var obj  = new { name = "lvniao", age = 12 };
             Console.WriteLine(obj.ToJson());
         }
     }

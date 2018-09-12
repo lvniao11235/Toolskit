@@ -11,7 +11,7 @@ namespace Common.Extensions
     {
         public static String ToJson(this Object obj)
         {
-            return JsonConvert.SerializeObject(obj);
+            return  JsonConvert.SerializeObject(obj);
         }
     }
 }
